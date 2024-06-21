@@ -10,7 +10,7 @@ Main PID : 9043(java)
 2. heapdump 파일 생성
 ```shell
 $  sudo jmap -dump:format=b,file=smd3100_240524.hprof 9043
-[sudo] password for itman:drmanuser7599!@
+[sudo] password for itman:***************
 Dumping heap to /home/itman/smd3100_240524.hprof ...
 Heap dump file created
 ```

@@ -8,3 +8,8 @@ $  exp userid={사용자-ID-지정}/{사용자-pw-지정} file={dmp 생성할 �
 적용 예시
 $  exp userid=KPS/iampassword file=/qc_dump.dmp full=y
 ```
+2-1. 스키마명 달라서 오류 발생할 경우
+```
+C:\>exp userid=oldusername/pswd file='C:\dumpfile.dmp' owner=oldusername
+C:\>imp userid=newusername/pswd file='C:\dumpfile.dmp' fromuser=oldusername touser=newusername
+```
